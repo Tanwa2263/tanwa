@@ -1,0 +1,60 @@
+<!-- page3.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2</title>
+    <style>
+        body {
+            background-color: #fffafc;
+            font-family: 'Arial', sans-serif;
+            color: #ff79a0;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        button {
+            background-color: #fff;
+            color: #ff79a0;
+            padding: 10px 20px;
+            border-radius: 20px;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #ffccd5;
+        }
+        img {
+            max-width: 80%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .caption {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="C:\Users\PC\Pictures\ฟหกหก/66.jpg"  style="width: 300px; height: auto;" />
+ 
+    <p class="caption">นี่สมาชิกใหม่เรา ไข่เต่าาาาา</p>
+    <button onclick="nextPage()">Next</button>
+</div>
+
+<script>
+    function nextPage() {
+        window.location.href = "12.index.html";
+    }
+</script>
+
+</body>
+</html>
